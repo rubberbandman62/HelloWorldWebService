@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>HelloWorldComponentIntegrationTest</artifactId>
+  
+  <parent>
+       <groupId>HelloWorldService</groupId>
+       <artifactId>HelloWorldServiceParent</artifactId>
+       <version>0.0.1-SNAPSHOT</version>
+       <relativePath>../0_HelloWorldServiceParent/pom.xml</relativePath>
+   </parent>  
+     
+  <dependencies>
+
+      <dependency>
+      	  <groupId>HelloWorldService</groupId>
+          <artifactId>HelloWorldServiceSoap</artifactId>
+          <version>${project.version}</version>
+      </dependency>
+  
+      <dependency>
+      	  <groupId>HelloWorldService</groupId>
+          <artifactId>HelloWorldServiceImpl</artifactId>
+          <version>${project.version}</version>
+      </dependency>
+      
+      <dependency>
+      	  <groupId>HelloWorldService</groupId>
+          <artifactId>HelloWorldSmallTalkCommentProvider</artifactId>
+          <version>${project.version}</version>
+      </dependency>
+      
+      <dependency>
+      	  <groupId>HelloWorldService</groupId>
+          <artifactId>SmallTalkCommentSoapService</artifactId>
+          <version>${project.version}</version>
+      </dependency>
+      
+  </dependencies>
+        
+</project>

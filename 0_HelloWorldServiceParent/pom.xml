@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HelloWorldService</groupId>
+  <artifactId>HelloWorldServiceParent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <description>Allows to define settings for all components only once and 
+               to build all components with one call.</description>
+  
+  <modules>
+    <module>../1_HelloWorldServiceApi</module>
+    <module>../2_HelloWorldServiceSoap</module>
+    <module>../3_HelloWorldServiceImpl</module>    
+    <module>../4_HelloWorldSmallTalkCommentProvider</module>    
+  </modules>
+  
+  <dependencies>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.11</version>
+		<scope>test</scope>
+	</dependency>
+  
+  </dependencies>
+     
+  <build>
+    <plugins>
+    
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.3</version>
+          <configuration>
+            <source>1.7</source>
+            <target>1.7</target>
+            <fork>true</fork>
+            <executable>C:\dev\java\jdk1.7.0_79\bin\javac.exe</executable>            
+          </configuration>
+        </plugin>
+        
+    </plugins>
+  </build>
+     
+</project>

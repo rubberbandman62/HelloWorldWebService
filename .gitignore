@@ -5,4 +5,4 @@
 target/
 RemoteSystemsTempFiles/
 .settings/
-src/gen/
+1_HelloWorldServiceApi/src/gen/

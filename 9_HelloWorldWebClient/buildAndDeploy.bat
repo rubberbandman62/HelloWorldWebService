@@ -1,3 +1,7 @@
+cd ../7_HelloWorldServiceJavaClient
+call mvn clean install
+cd ../9_HelloWorldWebClient
+
 call mvn clean install
 
 echo.

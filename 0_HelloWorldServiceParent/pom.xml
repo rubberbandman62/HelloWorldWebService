@@ -34,7 +34,6 @@
             <source>1.7</source>
             <target>1.7</target>
             <fork>true</fork>
-            <executable>C:\dev\java\jdk1.7.0_79\bin\javac.exe</executable>            
           </configuration>
         </plugin>
         

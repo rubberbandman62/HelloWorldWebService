@@ -6,6 +6,7 @@ import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
+import de.test.HelloWorldServiceSoapWrapper;
 import de.test.api.HelloWorld;
 import de.test.api.autogen.SayHelloRequest;
 import de.test.api.autogen.SayHelloResponse;

@@ -7,23 +7,23 @@
        <groupId>HelloWorldService</groupId>
        <artifactId>HelloWorldServiceParent</artifactId>
        <version>0.0.1-SNAPSHOT</version>
-       <relativePath>../0_HelloWorldServiceParent/pom.xml</relativePath>
+       <relativePath>../_HelloWorldServiceParent/pom.xml</relativePath>
    </parent>  
    
    <dependencies>
   
       <dependency>
       	  <groupId>HelloWorldService</groupId>
-          <artifactId>HelloWorldServiceJavaClient</artifactId>
+          <artifactId>HelloWorldJavaClient</artifactId>
           <version>${project.version}</version>
       </dependency>
       
-<dependency>
-    <groupId>javax</groupId>
-    <artifactId>javaee-api</artifactId>
-    <version>6.0</version>
-    <scope>provided</scope>
-</dependency>
+	<dependency>
+	    <groupId>javax</groupId>
+	    <artifactId>javaee-api</artifactId>
+	    <version>6.0</version>
+	    <scope>provided</scope>
+	</dependency>
         
    </dependencies>
    

@@ -2,7 +2,7 @@ call mvn clean install
 
 cd..
 
-cd 2_HelloWorldServiceSoap
+cd 4_HelloWorldServiceSoap
 
 echo.
 echo.

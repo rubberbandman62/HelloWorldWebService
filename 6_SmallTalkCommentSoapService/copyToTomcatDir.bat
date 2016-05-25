@@ -1,4 +1,4 @@
-set tomcatHome="C:\Entwicklung\apache-tomcat-8.0.32"
+set tomcatHome="C:\dev\tomcat\apache-tomcat-8.0.33"
 set serviceName="SmallTalkCommentService"
 
 rd %tomcatHome%\webapps\%serviceName% /s /q

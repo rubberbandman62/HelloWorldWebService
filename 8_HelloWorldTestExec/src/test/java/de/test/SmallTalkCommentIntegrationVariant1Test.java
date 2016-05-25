@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
+import de.test.HelloWorldServiceSoapWrapper;
 import de.test.api.HelloWorld;
 import de.test.api.autogen.SmallTalkCommentRequest;
 import de.test.api.autogen.SmallTalkCommentResponse;

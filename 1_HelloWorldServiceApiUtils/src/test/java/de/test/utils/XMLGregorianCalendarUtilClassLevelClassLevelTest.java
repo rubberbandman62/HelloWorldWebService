@@ -17,7 +17,7 @@ import de.test.api.utils.XMLGregorianCalendarUtil;
  * 
  * @author Reik Oberrath
  */
-public class XMLGregorianCalendarUtilClassLevelTest {
+public class XMLGregorianCalendarUtilClassLevelClassLevelTest {
 
 	// #############################################################################
 	//                        Unit tests on class level

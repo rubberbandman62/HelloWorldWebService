@@ -9,7 +9,7 @@
         <groupId>HelloWorldService</groupId>
         <artifactId>HelloWorldServiceParent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../0_HelloWorldServiceParent/pom.xml</relativePath>
+        <relativePath>../_HelloWorldServiceParent/pom.xml</relativePath>
     </parent>  	
   
 	<build>

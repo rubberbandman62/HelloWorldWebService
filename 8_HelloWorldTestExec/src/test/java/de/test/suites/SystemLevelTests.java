@@ -1,8 +1,10 @@
-package de.test;
+package de.test.suites;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import de.test.HelloWorldRequestExecutor;
 
 /**
  * These system tests depend on TomCat on which the 
@@ -11,7 +13,7 @@ import org.junit.Test;
  * 
  * @author Reik Oberrath
  */
-public class HelloWorldSystemTest {
+public class SystemLevelTests {
 
 	/**
 	 * This is a unit test on system level,

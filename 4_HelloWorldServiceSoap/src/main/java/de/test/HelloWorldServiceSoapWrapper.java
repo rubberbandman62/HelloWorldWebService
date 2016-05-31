@@ -18,7 +18,7 @@ import de.test.api.autogen.SmallTalkCommentResponse;
             serviceName = "HelloWorldService")
 public class HelloWorldServiceSoapWrapper implements HelloWorld {
 
-	HelloWorldService helloWorldService = new HelloWorldService();
+	HelloWorldServiceImpl helloWorldService = new HelloWorldServiceImpl();
 	
 	@Override
 	public SayHelloResponse sayHello(final SayHelloRequest request) 

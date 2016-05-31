@@ -23,7 +23,7 @@ import de.test.smalltalkcomment.SmallTalkCommentServiceFake;
  */
 public class HelloWorldServiceClassLevelTest 
 {
-	private HelloWorldService classUnterTest;
+	private HelloWorldServiceImpl classUnterTest;
 	private SmallTalkCommentHelperUnitTestWrapper smallTalkCommentHelperTestWrapper;
 	
 	// This fakes replaces the external webservice SmallTalkCommentSoapService
@@ -36,7 +36,7 @@ public class HelloWorldServiceClassLevelTest
 	
 	@Before
 	public void setup() {
-		classUnterTest = new HelloWorldService();
+		classUnterTest = new HelloWorldServiceImpl();
 		smallTalkCommentHelperTestWrapper = createSmallTalkCommentHelperTestWrapper();
 		
 		/* This injection of the TestWrapper is possible, because the variable

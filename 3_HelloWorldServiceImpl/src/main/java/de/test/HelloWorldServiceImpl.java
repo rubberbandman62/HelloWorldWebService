@@ -14,9 +14,9 @@ import de.test.api.autogen.SmallTalkCommentResponse;
 import de.test.api.utils.XMLGregorianCalendarUtil;
 import de.test.smalltalkcomment.SmallTalkCommentHelper;
 
-public class HelloWorldService implements HelloWorld 
+public class HelloWorldServiceImpl implements HelloWorld 
 {
-    private static final Logger LOGGER = Logger.getLogger(HelloWorldService.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(HelloWorldServiceImpl.class.getName());
 
 	private static final String DEFAULT_NAME = "World";
 
